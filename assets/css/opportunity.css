@@ -1,0 +1,47 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.opportunity h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.opportunity p {
+	font-size: 16px;
+}
+.opportunity h3{
+	font-weight: bold;
+}
+.details{
+	margin-top: 50px;
+  padding: 30px;
+  background-color: rgba(117, 18, 158, 0.1);
+  text-align: center;
+}
+button{
+  padding: 10px 20px;
+  background: #464646;
+  border: none;
+  color: white !important;
+  border: 2px solid #464646 !important;
+  margin-top: 20px !important;
+}
+button:hover{
+  border: 2px solid #464646;
+  background: white;
+  color: #464646 !important;
+}
+.social a{
+  text-align: center;
+  font-size: 40px;
+  color: #75129E;
+}
+.social a:hover{
+  color: #FFD23F;
+}
+.col-sm-9{
+  padding: 50px !important;
+}

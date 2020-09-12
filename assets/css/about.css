@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.vision img{
+  max-width: 100%;
+  height: 300px;
+}
+.vision h1{
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.vision .box{
+  padding: 30px;
+  margin-bottom: 100px;
+}
+.vision .box .text{
+  background: rgba(117, 18, 158, 0.1);
+  padding: 30px;
+  text-align: center;
+}
+.vision .box .text h4{
+  line-height: 1.5;
+}
+.vision .image{
+  text-align: center;
+}
+#timeline{
+  text-align: center;
+}
+#timeline h1{
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.circle{
+  width: 400px;
+  height: 400px;
+  background: rgba(117, 18, 158, 0.1);
+  margin: 10% auto;
+  border-radius: 50%;
+  position: relative;
+}
+.content{
+  position: absolute;
+  width: inherit;
+  height: auto;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+  padding: 20px;
+}
+.shape{
+  width: 500px;
+  height: 0;
+  border-right: 100px solid transparent;
+  border-top: 100px solid #75129E;
+  position: relative;
+  
+}
+.shape .content{
+  position: absolute;
+  top: -45px;
+  text-align: center; 
+}
+.shape .content h1{
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+#timeline .row{
+  padding: 50px;
+}
+#timeline h2{
+  color: #75129E;
+  font-weight: bold;
+}
+#timeline p{
+  font-size: 20px;
+}
+#timeline img{
+  max-width: 100%;
+}
+
+
+.services {
+  text-align: center;
+  margin: 30px 0;
+}
+.services h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.services .service {
+  background: rgba(117, 18, 158, 0.1);
+  padding-bottom: 30px;
+  margin: 10px;
+}
+.services img {
+  max-width: 100%;
+}
+.services h2 {
+  color: #75129E;
+  font-weight: bold;
+}
+.services p {
+  padding: 5px;
+  font-size: 20px;
+}

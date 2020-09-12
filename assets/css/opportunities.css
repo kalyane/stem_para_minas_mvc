@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+#opportunities .opportunity img {
+  width: 100%;
+}
+
+button{
+  padding: 10px 20px;
+  background: #464646;
+  border: none;
+  color: white !important;
+  border: 2px solid #464646 !important;
+}
+button:hover{
+  border: 2px solid #464646;
+  background: white;
+  color: #464646 !important;
+}
+.filter{
+  padding: 30px;
+  background-color: rgba(117, 18, 158, 0.1);
+}
+.col-sm-3{
+  padding: 20px;
+}
+
+#opportunities .filter {
+  background-color: #EAEAEA;
+}
+
+.search {
+  background-color: rgba(117, 18, 158, 0.1);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.list {
+  padding: 50px 200px;
+}

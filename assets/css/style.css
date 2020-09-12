@@ -1,0 +1,301 @@
+/* CSS aplicado para todos os elementos da pagina */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Barra de navegacao */
+nav{
+  width: 100%;
+  background: #75129E;
+  text-align: right;
+}
+nav .logo{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+nav ul{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  border-bottom-style: solid;
+  border-color: transparent;
+  margin-bottom: 5px;
+}
+
+nav ul li a:hover{
+  color: #FFD23F;
+  text-decoration: none;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+nav .toggle{
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+nav img{
+  height: 150px;
+  float: left;
+}
+@media (max-width: 1080px){
+  nav .toggle{
+    display: block;
+  }
+  nav ul{
+    width: 100%;
+    display: none;
+  }
+  nav ul li{
+    display: block;
+    text-align: center;
+  }
+  .active{
+    display:block;
+  }
+  nav img{
+    height: 70px;
+  }
+}
+
+/* home */
+
+
+.banner {
+  text-align: center;
+  padding: 25vh 0;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+.banner h1 {
+  font-size: 70px;
+  font-weight: 900;
+}
+.banner a {
+  color: #fff !important;
+  text-decoration: none;
+}
+.banner p {
+  font-size: 20px;
+}
+
+.about {
+  background: rgba(117, 18, 158, 0.1);
+  padding: 30px 20%;
+  margin: 30px 0;
+  text-align: center;
+}
+.about h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.about p {
+  color: #464646;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.about button {
+  padding: 10px 20px;
+  background: #464646;
+  border: none;
+  color: white;
+}
+
+.services {
+  text-align: center;
+  margin: 30px 0;
+}
+.services h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.services .service {
+  background: rgba(117, 18, 158, 0.1);
+  padding-bottom: 30px;
+  margin: 10px;
+}
+.services img {
+  width: 100%;
+}
+.services h2 {
+  color: #75129E;
+  font-weight: bold;
+}
+.services p {
+  padding: 5px;
+  font-size: 20px;
+}
+
+.newsletter {
+  text-align: center;
+}
+.newsletter h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.redeSocial {
+  text-align: center;
+}
+.redeSocial h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.redeSocial a {
+  color: #75129E;
+  margin: 15px;
+}
+
+.contato {
+  text-align: center;
+  margin: 60px;
+}
+.contato h1 {
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+.contato button {
+  padding: 10px 20px;
+  background: #464646;
+  border: none;
+  color: white;
+}
+
+.newsletter button {
+  padding: 10px 20px;
+  background: #464646;
+  border: none;
+  color: white;
+}
+.newsletter input {
+  border: none;
+  border-bottom: solid;
+  border-color: #464646;
+  padding: 10px 20px;
+  width: 50%;
+  margin: 15px 15px;
+}
+
+/* footer */
+.rodape{
+  width: 100%;
+  background: #75129E;
+  color: #fff;
+  font-size: 14px;
+  padding: 20px;
+}
+.rodape img{
+  width: 50%;
+  margin: 0 auto;
+  padding: 0;
+}
+.rodape .logo{
+  text-align: center;
+}
+.rodape li{
+  list-style: none;
+ 
+}
+.rodape a{
+  color: #fff;
+  text-decoration: none;
+}
+.rodape .social{
+  text-align: center;
+  font-size: 40px;
+}
+.rodape .social a:hover{
+  color: #FFD23F;
+}
+.rodape .footer-menu{
+  text-align: center;
+}
+.rodape .footer-menu a:hover{
+  color: #FFD23F;
+  text-decoration: none;
+}
+
+#myCarousel{
+  padding: 100px;
+  background: #75129E;
+}
+
+.redeSocial a:hover{
+	color: #FFD23F;
+    text-decoration: none;
+}
+.update h1{
+  font-size: 40px;
+  color: #75129E;
+  margin-bottom: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+.carousel-control.left,
+.carousel-control.right
+{
+background-image: none !important;
+}
+button{
+  padding: 10px 20px;
+  background: #464646;
+  border: none;
+  color: white !important;
+  border: 2px solid #464646 !important;
+}
+button:hover{
+  border: 2px solid #464646;
+  background: white;
+  color: #464646 !important;
+}
+.service{
+  position: relative;
+}
+.service:hover .info{
+  opacity: 0.4;
+}
+.subscribe{
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.service:hover .subscribe{
+  opacity: 1;
+}
+.opportunity{
+  color: white;
+}

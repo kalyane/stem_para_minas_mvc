@@ -1,0 +1,115 @@
+/* Barra de navegacao */
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav{
+  width: 100%;
+  background: #75129E;
+  text-align: right;
+}
+nav .logo{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+}
+nav ul{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0;
+  
+}
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 20px;
+  border-bottom-style: solid;
+  border-color: transparent;
+  margin-bottom: 5px;
+}
+
+nav ul li a:hover{
+  color: #FFD23F;
+  text-decoration: none;
+}
+nav ul li a{
+  color: #fff;
+  text-decoration: none;
+  font-size: 14px;
+}
+nav .toggle{
+  width: 100%;
+  padding: 10px 20px;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+nav img{
+  height: 130px;
+  float: left;
+}
+@media (max-width: 1080px){
+  nav .toggle{
+    display: block;
+  }
+  nav ul{
+    width: 100%;
+    display: none;
+  }
+  nav ul li{
+    display: block;
+    text-align: center;
+  }
+  .active{
+    display:block;
+  }
+  nav img{
+    height: 70px;
+  }
+}
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  z-index: 1;
+  left: 0;
+  background-color: rgba(117, 18, 158, 0.5);
+  overflow-x: hidden;
+  padding: 20px 0;
+}
+
+.sidenav h3{
+  padding: 6px 8px 6px 16px;
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  color: black;
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover{
+  color: white;
+  background-color: rgba(117, 18, 158, 1);
+}
+
+/* Main content */
+.main {
+  margin-left: 200px; /* Same as the width of the sidenav */
+  font-size: 20px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
